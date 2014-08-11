@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 我的Blog
+title: 鎴戠殑鍗氬
 ---
 {{ page.title }}
-最新文章
+myspace
 {% for post in site.posts %}
 {{ post.date | date_to_string }} {{ post.title }}
 {% endfor %}
